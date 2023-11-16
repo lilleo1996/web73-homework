@@ -1,3 +1,12 @@
-const fileSystem = require("./modules/fileSystem");
+const express = require("express");
 
-fileSystem.createNewFile("text-2.txt", "New text 2");
+const app = express();
+const port = 3001;
+
+app.get("/", (req, res) => {
+  res.send("Hello, this is homepage");
+});
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
