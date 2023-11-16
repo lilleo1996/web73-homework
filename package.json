@@ -1,0 +1,22 @@
+{
+  "name": "web73-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilleo1996/web73-homework.git"
+  },
+  "author": "hieutc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilleo1996/web73-homework/issues"
+  },
+  "homepage": "https://github.com/lilleo1996/web73-homework#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
